@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projectey - Immersive Gaming Experience</title>
+	<meta name="description" content="Experience the next level of gaming with Projectey. Immerse yourself in stunning visuals and intense gameplay.">
+	
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<!-- Custom Fonts -->
+	<style>
+		@font-face {
+			font-family: 'Hitmarker';
+			src: url('./Hitmarker/Display/Normal/TTF/HitmarkerNormal-Black.ttf') format('ttf');
+			font-weight: 100 900;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'HitmarkerWide';
+			src: url('./Hitmarker/Display/VF/Hitmarker-VF.woff') format('woff');
+			font-weight: 100 900;
+			font-style: normal;
+			font-display: swap;
+		}
+		
+		@font-face {
+			font-family: 'HitmarkerText';
+			src: url('./Hitmarker/Text/VF/HitmarkerText-VF.woff2') format('woff2'),
+				 url('./Hitmarker/Text/VF/HitmarkerText-VF.woff') format('woff');
+			font-weight: 100 900;
+			font-style: normal;
+			font-display: swap;
+		}
+		
+		@font-face {
+			font-family: 'Rajdhani';
+			src: url('./Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+			font-weight: 400;
+			font-style: normal;
+			font-display: swap;
+		}
+		
+		@font-face {
+			font-family: 'Rajdhani';
+			src: url('./Rajdhani/Rajdhani-Medium.ttf') format('truetype');
+			font-weight: 500;
+			font-style: normal;
+			font-display: swap;
+		}
+		
+		@font-face {
+			font-family: 'Rajdhani';
+			src: url('./Rajdhani/Rajdhani-Bold.ttf') format('truetype');
+			font-weight: 700;
+			font-style: normal;
+			font-display: swap;
+		}
+	</style>
+	
+	<!-- Styles -->
+	<link rel="stylesheet" href="styles.css">
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="Icon.png">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="nav-container">
+			<div class="nav-logo">
+				<img src="Icon.png" alt="Projectey Logo" class="logo-img">
+				<span class="logo-text">PROJECTEY</span>
+			</div>
+			
+			<div class="nav-menu" id="nav-menu">
+				<a href="#home" class="nav-link">Home</a>
+				<a href="#about" class="nav-link">About</a>
+				<a href="#features" class="nav-link">Features</a>
+				<a href="#gallery" class="nav-link">Gallery</a>
+				<a href="#contact" class="nav-link">Contact</a>
+			</div>
+			
+			<div class="nav-toggle" id="nav-toggle">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section id="home" class="hero">
+		<div class="hero-background">
+			<div class="hero-overlay"></div>
+		</div>
+		
+		<div class="hero-content">
+			<div class="hero-text">
+				<h1 class="hero-title">
+					<span class="title-line">WELCOME TO</span>
+					<span class="title-main">PROJECTEY</span>
+				</h1>
+				<p class="hero-subtitle">Not your regular first person shooter</p>
+				<div class="hero-buttons">
+					<button class="btn btn-primary">Play Now</button>
+					<button class="btn btn-secondary">Watch Trailer</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="scroll-indicator">
+			<div class="scroll-arrow"></div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section id="about" class="about">
+		<div class="container">
+			<div class="section-header">
+				<h2 class="section-title">About Projectey</h2>
+				<div class="section-line"></div>
+			</div>
+			
+			<div class="about-content">
+				<div class="about-text">
+					<p class="about-description">
+						<b>Projectey</b> is a first person shooter game, featuring fast paced gameplay. 
+						With a focus on arcade gameplay, <b>Projectey</b> offers a unique and engaging experience.
+					</p>
+				</div>
+				
+				<div class="about-stats">
+					<div class="stat-item">
+						<div class="stat-number">10 +</div>
+						<div class="stat-label">Gamemodes</div>
+					</div>
+					<div class="stat-item">
+						<div class="stat-number">60 FPS</div>
+						<div class="stat-label">Performance</div>
+					</div>
+					<div class="stat-item">
+						<div class="stat-number">20 +</div>
+						<div class="stat-label">Unique Weapons</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Features Section -->
+	<section id="features" class="features">
+		<div class="container">
+			<div class="section-header">
+				<h2 class="section-title">Game Features</h2>
+				<div class="section-line"></div>
+			</div>
+			
+			<div class="features-grid">
+				<div class="feature-card">
+					<div class="feature-icon">🎮</div>
+					<h3 class="feature-title">Engaging Gameplay</h3>
+					<p class="feature-description">
+						Immerse yourself in intense combat where strategy and skill determine victory.
+					</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">🎨</div>
+					<h3 class="feature-title">Stunning Graphics</h3>
+					<p class="feature-description">
+						Experience awesome visuals powered by the latest rendering technology.
+					</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">🔊</div>
+					<h3 class="feature-title">3D Audio</h3>
+					<p class="feature-description">
+						Hear every detail with our advanced spatial audio system.
+					</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">🌐</div>
+					<h3 class="feature-title">Multiplayer</h3>
+					<p class="feature-description">
+						Connect with players all around the world in epic battles.
+					</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">⚡</div>
+					<h3 class="feature-title">Fast Paced</h3>
+					<p class="feature-description">
+						High-octane action that keeps you engaged from start to finish.
+					</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">🏆</div>
+					<h3 class="feature-title">Competitive</h3>
+					<p class="feature-description">
+						Challenge yourself and others in intense competitive modes.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Gallery Section -->
+	<section id="gallery" class="gallery">
+		<div class="container">
+			<div class="section-header">
+				<h2 class="section-title">Gallery</h2>
+				<div class="section-line"></div>
+			</div>
+			
+			<div class="gallery-grid">
+				<div class="gallery-item">
+					<div class="gallery-placeholder">
+						<span>Gameplay Screenshot 1</span>
+					</div>
+				</div>
+				<div class="gallery-item">
+					<div class="gallery-placeholder">
+						<span>Gameplay Screenshot 2</span>
+					</div>
+				</div>
+				<div class="gallery-item">
+					<div class="gallery-placeholder">
+						<span>Gameplay Screenshot 3</span>
+					</div>
+				</div>
+				<div class="gallery-item">
+					<div class="gallery-placeholder">
+						<span>Gameplay Screenshot 4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="section-header">
+				<h2 class="section-title">Get In Touch</h2>
+				<div class="section-line"></div>
+			</div>
+			
+			<div class="contact-content">
+				<div class="contact-info">
+					<h3>Stay Connected</h3>
+					<p>Follow us for the latest updates and announcements.</p>
+					
+					<div class="social-links">
+						<a href="#" class="social-link">Discord</a>
+						<a href="#" class="social-link">Twitter</a>
+						<a href="#" class="social-link">YouTube</a>
+						<a href="#" class="social-link">Steam</a>
+					</div>
+				</div>
+				
+				<div class="contact-form">
+					<form>
+						<div class="form-group">
+							<input type="email" placeholder="Your Email" required>
+						</div>
+						<div class="form-group">
+							<textarea placeholder="Your Message" rows="4" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="Icon.png" alt="Projectey Logo" class="logo-img">
+					<span class="logo-text">PROJECTEY</span>
+				</div>
+				
+				<div class="footer-links">
+					<a href="#home">Home</a>
+					<a href="#about">About</a>
+					<a href="#features">Features</a>
+					<a href="#gallery">Gallery</a>
+					<a href="#contact">Contact</a>
+				</div>
+				
+				<div class="footer-copyright">
+					<p>&copy; 2024 Projectey. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="script.js"></script>
+</body>
+</html> 
